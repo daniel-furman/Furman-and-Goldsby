@@ -15,19 +15,19 @@ The entire workflow is available in the Firn_notebook.ipynb Jupyter file, where 
 
 ---
 
-Figure 1: <br>
-Figure 2: <br>
-Figure 3: <br>
-Figure 4: <br>
-Figure S1: <br>
-Figure S2: <br>
-Figure S3: <br>
-Figure S4: <br>
-Table 1: <br>
-Table S1: <br>
+Figure 1: <br><br>
+Figure 2: <br><br>
+Figure 3: <br><br>
+Figure 4: <br><br>
+Figure S1: <br><br>
+Figure S2: <br><br>
+Figure S3: <br><br>
+Figure S4: <br><br>
+Table 1: <br><br>
+Table S1: <br><br>
 
 ## Data
 
 ---
 
-Output from compaction tests (compaction*.csv) and pressure-density profiles (csv files matching each the name of each site) are availabe in the data folder. 
+Output from compaction tests (compaction*.csv) and pressure-density profiles (csv files matching the name of each site) are availabe in the /Data/ subfolder. 
