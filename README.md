@@ -30,4 +30,4 @@ Table S1: <br><br>
 
 ---
 
-Output from compaction tests (compaction*.csv) and pressure-density profiles (csv files matching the name of each site) are availabe in the /Data/ subfolder. 
+Output from compaction tests (compaction*.csv) and pressure-density profiles (csv files matching the name of each site) are availabe in the Data/ subfolder. 
