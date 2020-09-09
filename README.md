@@ -15,16 +15,16 @@ The entire workflow is available in the Firn_notebook.ipynb Jupyter file, where 
 
 ---
 
-Figure 1: 
-Figure 2: 
-Figure 3: 
-Figure 4: 
-Figure S1:
-Figure S2: 
-Figure S3:
-Figure S4: 
-Table 1:
-Table S1: 
+Figure 1: <br>
+Figure 2: <br>
+Figure 3: <br>
+Figure 4: <br>
+Figure S1: <br>
+Figure S2: <br>
+Figure S3: <br>
+Figure S4: <br>
+Table 1: <br>
+Table S1: <br>
 
 ## Data
 
