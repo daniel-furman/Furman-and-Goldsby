@@ -6,17 +6,15 @@ Created on Sat Aug 22 20:16:44 2020
 @author: danielfurman
 """
 
-
-# required libraries
-import pandas as pd
-import numpy as np
-
-
 # In this script we calculate the densification versus age series from 
 # all five terrestrial ice sheet profiles. Pressure was converted to age
 # via division with the accumulation rate of the site (pressure /
 # accumulation rate / gravity). We assume accumulation rate is constant, 
 # which is clearly a simplifying approximation.
+
+# required libraries
+import pandas as pd
+import numpy as np
 
 #vostok
 
