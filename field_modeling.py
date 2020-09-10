@@ -18,7 +18,7 @@ import numpy as np
 
 #vostok
 
-vostok = np.loadtxt('data/vostok.csv', delimiter = ',')#-57 C
+vostok = np.loadtxt('data/Vostok.csv', delimiter = ',')#-57 C
 accum_rate_vostok = 22 #kg/m^2 year
 vostok_icesheet = np.zeros([len(vostok[:,0]),5]) #initialize
 vostok_icesheet[:,0] = vostok[:,0] #pressure in mpa
@@ -32,7 +32,7 @@ vostok_icesheet[:,4] = (vostok[:,0]*1e6/accum_rate_vostok)/9.81
 
 #iterate:
 
-byrd = np.loadtxt('data/byrd.csv', delimiter = ',') #-28 C
+byrd = np.loadtxt('data/Byrd.csv', delimiter = ',') #-28 C
 accum_rate_byrd = 157 #kg/m^2 year
 byrd_icesheet = np.zeros([len(byrd[:,0]),5])
 byrd_icesheet[:,0] = byrd[:,0]
@@ -43,7 +43,7 @@ byrd_icesheet[:,3] = (byrd[:,0]*1e6/accum_rate_byrd)*(31536000)/9.81
 byrd_icesheet[:,4] = (byrd[:,0]*1e6/accum_rate_byrd)/9.81 
 #years
 
-mizuho = np.loadtxt('data/mizuho.csv', delimiter = ',') #-33 c
+mizuho = np.loadtxt('data/Mizuho.csv', delimiter = ',') #-33 c
 accum_rate_mizuho = 70 #kg/m^2 year
 mizuho_icesheet = np.zeros([len(mizuho[:,0]),5])
 mizuho_icesheet[:,0] = mizuho[:,0]
@@ -54,7 +54,7 @@ mizuho_icesheet[:,3] = (mizuho[:,0]*1e6/accum_rate_mizuho)*(31536000)/9.81
 mizuho_icesheet[:,4] = (mizuho[:,0]*1e6/accum_rate_mizuho)/9.81 
 #years
 
-domec = np.loadtxt('data/domec2.csv', delimiter = ',') #-54 c
+domec = np.loadtxt('data/Domec2.csv', delimiter = ',') #-54 c
 accum_rate_domec= 34 #kg/m^2 year
 domec_icesheet = np.zeros([len(domec[:,0]),5])
 domec_icesheet[:,0] = domec[:,0]
@@ -66,7 +66,7 @@ domec_icesheet[:,4] = (domec[:,0]*1e6/accum_rate_domec)/9.81
 #years
 
 
-g2 = np.loadtxt('data/g2.csv', delimiter = ',') #-29 c
+g2 = np.loadtxt('data/G2.csv', delimiter = ',') #-29 c
 accum_rate_g2= 75 #kg/m^2 year
 g2_icesheet = np.zeros([len(g2[:,0]),5])
 g2_icesheet[:,0] = g2[:,0]
