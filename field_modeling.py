@@ -1,9 +1,22 @@
-#assuming accum rate is constant, approximation since this is not true
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""
+Created on Sat Aug 22 20:16:44 2020
 
+@author: danielfurman
+"""
+
+
+# required libraries
 import pandas as pd
 import numpy as np
 
 
+# In this script we calculate the densification versus age series from 
+# all five terrestrial ice sheet profiles. Pressure was converted to age
+# via division with the accumulation rate of the site (pressure /
+# accumulation rate / gravity). We assume accumulation rate is constant, 
+# which is clearly a simplifying approximation.
 
 #vostok
 
@@ -65,7 +78,7 @@ g2_icesheet[:,3] = (g2[:,0]*1e6/accum_rate_g2)*(31536000)/9.81 #seconds
 g2_icesheet[:,4] = (g2[:,0]*1e6/accum_rate_g2)/9.81 #years
 
 
-#now I want to calculate some statistics
+# Now calculate some statistics
 
 files = [vostok_icesheet,byrd_icesheet,mizuho_icesheet,domec_icesheet,
          g2_icesheet]
@@ -86,7 +99,7 @@ for f in files:
     
 j = 0    
 
-#now I want to calculate three rates
+# Calculate three rates
 for f in files:  
     
     f1 = f[(f[:,2]>.8) & (f[:,2]<.833)]
