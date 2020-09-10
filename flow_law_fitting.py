@@ -6,6 +6,14 @@ Created on Sat Aug 22 20:16:44 2020
 @author: danielfurman
 """
 
+# This lengthy script constrains the strain-stress constitutive model, 
+# describing densification with several physical variables. We use 
+# Eq. 1 to analyze the data, taking each series' mean relative density.
+# We then output several plots, including the p parameter calculation,
+# the flow law behind the experimental data, and the firn flow law versus 
+# the solid ice flow law.  
+
+# required libraries
 import numpy as np
 import matplotlib.pylab as plt
 import pandas as pd
@@ -91,7 +99,7 @@ n = 1.625
 ps = np.zeros(len(stresses))
 for i in range(0,len(stresses)):
     ps[i]=( solve((((1-.818)/((1-(1-.818)**(1/n))**n))*((1/(2*1.68e-5)**p)))/(
-        (1/(2*8e-6)**p)*((1-.831)/((1-(1-.831)**(1/n))**n))) - ((np.exp(
+        (1/(2*5e-6)**p)*((1-.831)/((1-(1-.831)**(1/n))**n))) - ((np.exp(
                 reg2.intercept_)*stresses[i]**reg2.coef_[0])/(np.exp(
                     reg.intercept_)*stresses[i]**reg.coef_[0])),p))[0]
 
@@ -105,10 +113,10 @@ print('\t%.11g +- %.11g'%(0.89659 ,plus_minus))
 stress = np.array(paper_table['applied stress'][6:15])
 rate = np.array(paper_table['Densification rate'][6:15])
 pr = np.array(paper_table['Mean dens'][6:15])
-r = np.array([1.68e-5, 1.68e-5, 1.68e-5, 1.68e-5, 8e-6, 8e-6, 8e-6,8e-6, 9e-6])
+r = np.array([1.68e-5, 1.68e-5, 1.68e-5, 1.68e-5, 5e-6, 5e-6, 5e-6,5e-6, 5e-6])
 
 #experimental A pre-exponential calculation GBS creep
-p = 1.465
+p = .8966
 A = Symbol('A') 
 results = np.zeros(len(stress))
 T = 233
@@ -124,8 +132,8 @@ print('\n\nThe A parameter for the GSS flow law is:',
 bs1 = bs.bootstrap(results,stat_func=bs_stats.mean)
 print('The A parameter bootstrapped uncertainty estimate:')
 print('\t' + str(bs1))
-#plus_minus = np.mean([0.44313-0.40187, 0.47870-0.44313])
-#print('\t%.11g +- %.11g'%(0.44313 ,plus_minus))
+plus_minus = np.mean([0.44313-0.40187, 0.47870-0.44313])
+print('\t%.11g +- %.11g'%(0.44313 ,plus_minus))
 
 #experimental A pre-exp calculation disl creep
 
@@ -162,13 +170,13 @@ plt.figure()
 # flow law with exp data
 
 R = 8.314
-r = 8e-6 #radius in meters, 
+r = 5e-6 #radius in meters, 
 A = 1.48e5*np.exp(-60000/(8.314*T))
 n = 3.74
 n3 = 1.625
-A_gbs = 0.001293*np.exp(-49000/(8.314*T))
+A_gbs = 0.4431*np.exp(-49000/(8.314*T))
 pr = .831
-p =  1.465
+p = .8966
 
 stress = np.arange(6e-2, 10,.001)
 rate_gbs = np.zeros(len(stress))
@@ -268,7 +276,7 @@ plt.loglog(stress,(np.exp(reg.intercept_)*stress**reg.coef_[0]), 'b--',
 
 plt.legend(loc='best', shadow = True)
 
-plt.savefig('images/expdatadens_final.png', dpi = 400)
+#plt.savefig('images/expdatadens_final.png', dpi = 400)
 
 
 ### Plotting flow law against solid ice flow law
@@ -305,8 +313,8 @@ plt.loglog(stress,rate_dc+rate_gbs,lw=5,color='blue',alpha=.6,
 A = 1.481e5*np.exp(-60000/(8.314*T))
 n = 3.74
 n3 = 1.63
-A_gbs = 0.001293*np.exp(-49000/(8.314*T))
-p =  1.465
+A_gbs = .443*np.exp(-49000/(8.314*T))
+p = .897
 pr = 0.8
 
 stress = np.arange(.000001, 20,.00005)
@@ -348,7 +356,7 @@ plt.grid(axis = 'y')
 plt.xlim([1e-3,10])
 plt.ylim([1e-13,1e-5])
 plt.legend()
-plt.savefig('images/genflowlaw.png', dpi = 400)
+#plt.savefig('images/genflowlaw.png', dpi = 400)
 
 
 
