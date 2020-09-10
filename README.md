@@ -15,7 +15,7 @@ The entire scientific programming workflow is available in the `Firn_notebook.ip
 
 ---
 
-Figure 1: Figures from Breant et al. (2017) and Faria et al. 2014. <br><br>
+Figure 1: Figures from Breant et al. (2017) and Faria et al. (2014). <br><br>
 Figure 2: `flow_law_fiting.py` <br><br>
 Figure 3: `dens_multiweek.py` <br><br>
 Figure 4: `mechanism_maps.py` <br><br>
