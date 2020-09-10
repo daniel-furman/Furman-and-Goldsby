@@ -24,7 +24,8 @@ print('the mean  rate  is:', np.max(strain_rates['mean']))
 print('the min rate  is:', np.min(strain_rates['mean']))
 print('the max rate is:', np.mean(strain_rates['mean']))
 
-data_nature[2] #mizuho
+# Mizuho:
+
 R = 8.314 #gas constant
 x = Symbol('x')
 T = (240) #temp in kelvin
@@ -84,8 +85,8 @@ plt.xlim([.8,.9])
 plt.savefig('images/Mizuho.png', dpi = 400)
 
 plt.figure()
-data_nature[0] # vostok
 
+# Vostok
 
 stress = np.arange(.1,.7,.01)
 pr = np.zeros(len(stress))
@@ -94,17 +95,12 @@ x = Symbol('x')
 T = (216) #temp in kelvin
 r = 1e-4 #radius in meters
 
-
-
 A = 1.48e5*np.exp(-60000/(8.314*T))
 A_gbs = 0.443*np.exp(-49000/(8.314*T))
 
-
 rate_dl = np.zeros(len(data_nature[0][:,0]))
 rate_gbs = np.zeros(len(data_nature[0][:,0]))
-
 rate_gbs1 = np.zeros(len(data_nature[0][:,0]))
-
 
 for i in range(0,len(data_nature[0][:,0])):
     
@@ -148,10 +144,9 @@ plt.grid(axis = 'x')
 plt.xlim([.8,.9])
 plt.savefig('images/Vostok.png', dpi = 400)
 
-
 plt.figure()
-data_nature[4] # gisp
 
+# Gisp2
 
 stress = np.arange(.1,.7,.01)
 pr = np.zeros(len(stress))
@@ -160,18 +155,12 @@ x = Symbol('x')
 T = (244) #temp in kelvin
 r = 1e-4 #radius in meters
 
-
-
-
 A = 1.48e5*np.exp(-60000/(8.314*T))
 A_gbs = 0.443*np.exp(-49000/(8.314*T))
 
 rate_dl = np.zeros(len(data_nature[4][:,0]))
 rate_gbs = np.zeros(len(data_nature[4][:,0]))
-
 rate_gbs1 = np.zeros(len(data_nature[4][:,0]))
-
-
 
 for i in range(0,len(data_nature[4][:,0])):
     rate_gbs[i] = ((2*A_gbs*(1-data_nature[4][i,2])/((1-(1-data_nature[4]
@@ -217,8 +206,7 @@ plt.savefig('images/GISP2.png', dpi = 400)
 
 plt.figure()
 
-
-
+# Byrd
 
 stress = np.arange(.1,.7,.01)
 pr = np.zeros(len(stress))
@@ -230,11 +218,9 @@ r = 1e-4 #radius in meters
 
 A = 1.48e5*np.exp(-60000/(8.314*T))
 A_gbs = 0.443*np.exp(-49000/(8.314*T))
-
 rate_dl = np.zeros(len(data_nature[1][:,0]))
 rate_gbs = np.zeros(len(data_nature[1][:,0]))
 rate_gbs1 = np.zeros(len(data_nature[1][:,0]))
-
 
 for i in range(0,len(data_nature[1][:,0])):
     rate_gbs[i] = ((2*A_gbs*(1-data_nature[1][i,2])/((1-(1-data_nature[1]
@@ -248,7 +234,6 @@ for i in range(0,len(data_nature[1][:,0])):
 
     
 plotter = np.zeros([len(data_nature[1][:,2]),9])
-
 plotter[:,0] = data_nature[1][:,2]
 plotter[:,1] = rate_gbs
 plotter[:,2] = rate_dl
@@ -279,11 +264,8 @@ plt.xlim([.8,.9])
 plt.savefig('images/Byrd.png', dpi = 400)
 
 plt.figure()
-print()
 
-
-
-
+# Dome C
 
 stress = np.arange(.1,.7,.01)
 pr = np.zeros(len(stress))
@@ -292,13 +274,11 @@ x = Symbol('x')
 T = (219) #temp in kelvin
 r = 1e-4 #radius in meters
 
-
 A = 1.48e5*np.exp(-60000/(8.314*T))
 A_gbs = 0.443*np.exp(-49000/(8.314*T))
 rate_dl = np.zeros(len(data_nature[3][:,0]))
 rate_gbs = np.zeros(len(data_nature[3][:,0]))
 rate_gbs1 = np.zeros(len(data_nature[3][:,0]))
-
 
 for i in range(0,len(data_nature[3][:,0])):
     rate_gbs[i] = ((2*A_gbs*(1-data_nature[3][i,2])/((1-(1-data_nature[3]
