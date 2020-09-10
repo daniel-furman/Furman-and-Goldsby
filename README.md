@@ -9,7 +9,7 @@ All code and data required to reproduce analysis presented in Furman and Goldsby
 
 ---
 
-The entire scientific programming workflow is available in the `Firn_notebook.ipynb` Jupyter file, where each python script is ran in a easy to follow order. 
+The programming outputs are available in the `Firn_notebook.ipynb` Jupyter file, where each python script is ran in a easy to follow order based on the general workflow of out study. 
 
 ## Figures
 
