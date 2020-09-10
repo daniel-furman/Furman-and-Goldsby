@@ -10,8 +10,7 @@ Created on Tues Aug 18 13:27:33 2020
 # averaging many thus-approximated rates. Steady-state slices corresponded to
 # relatively small changes in density; therefore, the mean relative density
 # was considered representative per measurement, and the densification can be 
-# taken as density invariant, albeit locally. See one example in the 
-# script "calc_dens_rate_example.py"
+# taken as density invariant, albeit locally. 
 
 # Required Libraries:
 
