@@ -5,6 +5,13 @@ Created on Tue Aug 25 09:14:26 2020
 
 @author: danielfurman
 """
+
+# In this script we take several steady-state rate measurements from a 
+# compaction test that took place over several weeks. These rates vary 
+# from 1.05e-8 to 2.81e-8, revealing the density dependence during firn creep.
+
+# required libraries:
+
 import matplotlib.pylab as plt
 import numpy as np
 import glob
