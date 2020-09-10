@@ -6,9 +6,16 @@ Created on Wed Aug 26 13:54:27 2020
 @author: danielfurman
 """
 
+# In the second part of "field_modeling" we contrast the natural rates of
+# densification with our flow law model predictions. We consider the two
+# power law mechanisms resolved from out testing, using the temperature,
+# density, and stress conditions from the field profiles. 
+
+# required libraries:
 import matplotlib.pylab as plt
 from sympy import Symbol
 import numpy as np
+
 exec(open('field_modeling.py').read())
 
 print('Firn rates across intermediate densificaiton derived from'+
@@ -22,9 +29,9 @@ R = 8.314 #gas constant
 x = Symbol('x')
 T = (240) #temp in kelvin
 r = 1e-4 #radius in meters
-p = 1.465
+p = .8966
 A = 1.48e5*np.exp(-60000/(8.314*T))
-A_gbs =  0.001293*np.exp(-49000/(8.314*T))
+A_gbs = 0.443*np.exp(-49000/(8.314*T))
 n3 = 1.626
 n = 3.74
 
@@ -90,7 +97,7 @@ r = 1e-4 #radius in meters
 
 
 A = 1.48e5*np.exp(-60000/(8.314*T))
-A_gbs =  0.001293*np.exp(-49000/(8.314*T))
+A_gbs = 0.443*np.exp(-49000/(8.314*T))
 
 
 rate_dl = np.zeros(len(data_nature[0][:,0]))
@@ -157,9 +164,7 @@ r = 1e-4 #radius in meters
 
 
 A = 1.48e5*np.exp(-60000/(8.314*T))
-A_gbs =  0.001293*np.exp(-49000/(8.314*T))
-n3 = 1.626
-n = 3.74
+A_gbs = 0.443*np.exp(-49000/(8.314*T))
 
 rate_dl = np.zeros(len(data_nature[4][:,0]))
 rate_gbs = np.zeros(len(data_nature[4][:,0]))
@@ -224,9 +229,8 @@ r = 1e-4 #radius in meters
 
 
 A = 1.48e5*np.exp(-60000/(8.314*T))
-A_gbs =  0.001293*np.exp(-49000/(8.314*T))
-n3 = 1.626
-n = 3.74
+A_gbs = 0.443*np.exp(-49000/(8.314*T))
+
 rate_dl = np.zeros(len(data_nature[1][:,0]))
 rate_gbs = np.zeros(len(data_nature[1][:,0]))
 rate_gbs1 = np.zeros(len(data_nature[1][:,0]))
@@ -289,11 +293,8 @@ T = (219) #temp in kelvin
 r = 1e-4 #radius in meters
 
 
-
 A = 1.48e5*np.exp(-60000/(8.314*T))
-A_gbs =  0.001293*np.exp(-49000/(8.314*T))
-n3 = 1.626
-n = 3.74
+A_gbs = 0.443*np.exp(-49000/(8.314*T))
 rate_dl = np.zeros(len(data_nature[3][:,0]))
 rate_gbs = np.zeros(len(data_nature[3][:,0]))
 rate_gbs1 = np.zeros(len(data_nature[3][:,0]))
