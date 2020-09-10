@@ -6,19 +6,27 @@ Created on Tue Aug 25 09:47:04 2020
 @author: danielfurman
 """
 
+# Construction of mechanism maps, per Frost and Ashby 1982, Maeno and Ebinuma
+# 1982. This script takes a long time to run, over 16 minutes, as the sympy
+# solver has to iterate many times. 
+
+# required libraries:
 import numpy as np
 import matplotlib.pylab as plt
 from sympy.solvers import solve
 from sympy import Symbol
-R = 8.314
 
+#set flow law params:
+R = 8.314
 T = 233
 A = 1.48e5*np.exp(-60000/(8.314*T))
 n = 3.74
 n3 = 1.625
 A_gbs = 0.4431*np.exp(-49000/(8.314*T))
-pr = .85
+pr = .85 #take the mean density for intermediate stage
 p = .8966
+
+# set solving conditions
 x = Symbol('x')
 
 r = np.arange(1e-6,1e-5,1e-5)
@@ -26,22 +34,23 @@ r1 = np.arange(1e-5,1e-4,1e-4)
 r2 = np.arange(1e-4,1e-3,1e-3)
 r3 = np.arange(1e-3,1e-2,1e-2)
 r4 = np.array([1e-2])
-r = np.concatenate((r,r1,r2,r3,r4))
+r = np.concatenate((r,r1,r2,r3,r4)) #grain sizes 
 
-stress_boundary = np.zeros(len(r))
+stress_boundary = np.zeros(len(r)) #initiate stress bounndary
 
-x = Symbol('x')
+
 for i in range(0,len(r)):
-    #print(i)
     a = solve(((2*A_gbs*(1-pr)/((1-(1-pr)**(1/n3))**n3))*(((2*x)/n3)**n3)*(1/(
         2*r[i])**p)) - ((2*A*(1-pr)/((1-(1-pr)**(1/n))**n))*(((2*x)/n)**n)),x)
     stress_boundary[i] = a[1]
     
 fig, ax = plt.subplots()
-#ax2 = ax.twinx()
+
 
 ax.loglog(stress_boundary, r, label =
           'boundary \n$\.\epsilon$disl.=$\.\epsilon$GBS', linewidth = 5)
+
+# now find rate contours:
 
 r = np.arange(1e-6,1e-5,1e-6)
 r1 = np.arange(1e-5,1e-4,1e-5)
@@ -106,15 +115,6 @@ for i in range(0,len(r)):
     
 ax.set_ylabel('Grain radius (m)')
 ax.set_xlabel('$log$ $\sigma$ (Mpa)')
-#ax2.set_ylabel("Grain radius ($\mu$m)")
-um = lambda m: m/1e-6
-# get left axis limits
-ymin, ymax = ax.get_ylim()
-# apply function and set transformed values to right axis limits
-#ax2.set_ylim((um(ymin),um(ymax)))
-# set an invisible artist to twin axes 
-# to prevent falling back to initial values on rescale events
-# ax2.loglog([],[])
 
 
 ax.set_title('Sintering Mechanism Map: 253 K, .85 pr ', fontweight = 'bold')
@@ -133,17 +133,11 @@ ax.loglog(stress21[stress21<stress22],r[stress21<stress22],'--',color='grey')
 ax.loglog(stress62[stress61>stress62],r[stress61>stress62],'--',color='grey')
 ax.loglog(stress61[stress61<stress62],r[stress61<stress62],'--',color='grey')
 
-#ax.legend(loc='upper left', shadow = True)
 
-#ax.text(1.55,3e-4,'disl. creep',fontweight = 'bold')
-#ax.text(1.5e-1,1e-5,'disGBS',fontweight = 'bold')
-#ax.text(2, 2e-6, '1e-6', color = 'k')
-#ax.text(1e-1, 2e-6, '1e-8', color = 'k')
-#ax.text(2e-2, 1e-5, '1e-10', color = 'k')
+# plt.savefig('images/sintering2.png', dpi = 400)
 
-#plt.savefig('images/sintering2.png', dpi = 400)
 
-# now move on to Mars
+# now repeat for Mars
 
 plt.figure()
 
@@ -264,4 +258,4 @@ ax.loglog(stress22[stress21>stress22],r[stress21>stress22],'--',color='grey')
 ax.loglog(stress21[stress21<stress22],r[stress21<stress22],'--',color='grey')
 
 
-#plt.savefig('images/sintering_mars.png', dpi = 400)
+# plt.savefig('images/sintering_mars.png', dpi = 400)
