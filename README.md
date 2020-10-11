@@ -2,7 +2,7 @@
 
 ---
 
-All code and data required to reproduce analysis presented in Furman and Goldsby, 2020.
+All code and data required to reproduce analysis presented in [Furman and Goldsby, 2020](https://drive.google.com/file/d/19Kfke9_6qqI7a9NjR6NazxbAyYyM4JCL/view?usp=sharing).
 
 
 ## Workflow
