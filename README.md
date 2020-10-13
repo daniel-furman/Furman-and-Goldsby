@@ -1,4 +1,4 @@
-## Furman-and-Goldsby-2020-GRL
+## Furman-and-Goldsby-2020
 
 ---
 
