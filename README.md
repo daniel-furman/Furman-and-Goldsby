@@ -4,7 +4,7 @@
 
 All code and data required to reproduce analyses presented in [Furman and Goldsby, 2020](https://drive.google.com/file/d/19Kfke9_6qqI7a9NjR6NazxbAyYyM4JCL/view?usp=sharing) and its [Supporting Information](https://drive.google.com/file/d/1SDf_7wlJxUR1KnFe6b0cDSVhVjYN7N4d/view?usp=sharing).
 
-How does grain size, strain state, and microstructure influence the rheological behavior of ice compaction among glaciers and ice sheets? 
+* How does grain size, strain state, and microstructure influence the rheological behavior of ice compaction among glaciers and ice sheets? 
 
 
 ## Workflow
