@@ -4,14 +4,14 @@
 
 ---
 
-All code and data required to reproduce analyses presented in [Furman and Goldsby, 2020](https://drive.google.com/file/d/19Kfke9_6qqI7a9NjR6NazxbAyYyM4JCL/view?usp=sharing) and its [Supporting Information](https://drive.google.com/file/d/1SDf_7wlJxUR1KnFe6b0cDSVhVjYN7N4d/view?usp=sharing).
+All code and data required to reproduce analyses presented in [Furman and Goldsby, 2020](https://drive.google.com/file/d/19Kfke9_6qqI7a9NjR6NazxbAyYyM4JCL/view?usp=sharing) and its [Supporting Information](https://drive.google.com/file/d/1SDf_7wlJxUR1KnFe6b0cDSVhVjYN7N4d/view?usp=sharing). See [`Firn_notebook.ipynb`](https://nbviewer.jupyter.org/github/daniel-furman/Furman-and-Goldsby/blob/master/Firn_notebook.ipynb) first.
 
 
 ### Workflow
 
 ---
 
-The programming outputs are available in the [`Firn_notebook.ipynb`](https://nbviewer.jupyter.org/github/daniel-furman/Furman-and-Goldsby/blob/master/Firn_notebook.ipynb) Jupyter file, where each python script is ran in an order based on our workflow.
+The programming workflow is available in the [`Firn_notebook.ipynb`](https://nbviewer.jupyter.org/github/daniel-furman/Furman-and-Goldsby/blob/master/Firn_notebook.ipynb), where each .py script is ran in an easy to follow sequence.
 
 
 ### Figures
