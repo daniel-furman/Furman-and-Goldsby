@@ -11,7 +11,7 @@ All code and data required to reproduce analyses presented in [Furman and Goldsb
 
 ---
 
-The programming outputs are available in the `Firn_notebook.ipynb` Jupyter file, where each python script is ran in an order based on our workflow.
+The programming outputs are available in the [`Firn_notebook.ipynb`](https://nbviewer.jupyter.org/github/daniel-furman/Furman-and-Goldsby/blob/master/Firn_notebook.ipynb) Jupyter file, where each python script is ran in an order based on our workflow.
 
 
 ### Figures
