@@ -9,8 +9,7 @@ All code and data required to reproduce analyses presented in [Furman and Goldsb
 
 ---
 
-The programming outputs are available in the `Firn_notebook.ipynb` Jupyter file, where each python script is ran in a easy to follow order based on the workflow of our study. 
-
+The programming outputs are available in the `Firn_notebook.ipynb` Jupyter file, where each python script is ran in an order based on our workflow.
 
 * How does grain size, strain state, and microstructure influence the rheological behavior of ice compaction among glaciers and ice sheets? 
 
