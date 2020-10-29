@@ -33,7 +33,7 @@ Table S1: `calc_dens_rates.py` <br><br>
 
 ---
 
-Output from compaction tests (compaction*.csv) and pressure-density profiles (site-name*.csv) are availabe in the data/ subfolder. 
+Output from compaction tests (compaction*.csv) and pressure-density profiles (site-name*.csv) are contained in the data/ subfolder. 
 
 
 ### Abstract 
