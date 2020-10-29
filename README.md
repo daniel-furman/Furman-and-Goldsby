@@ -40,9 +40,9 @@ Output from compaction tests (compaction*.csv) and pressure-density profiles (si
 
 ---
 
-Firn densifies through a number of processes at the near-surface of glaciers and ice sheets, with two plastic creep mechanisms previously identified: diffusion and dislocation creep. Here, we performed a series of compaction experiments at nominally constant stress (0.3 – 1.4 MPa) with samples synthesized over a range of grain size (5 – 550 um) at constant temperature (233 K). Measurements of creep rate varied over two orders of magnitude, analyzed via the power-law relationship between strain rate, stress, and grain diameter.
+Firn densifies through a number of processes at the near-surface of glaciers and ice sheets, with two plastic creep mechanisms previously identified: diffusion and dislocation creep. Here, we performed a series of compaction experiments at nominally constant stress (0.3 – 1.4 MPa) with samples synthesized over a range of grain size (5 – 550 um) at constant temperature (233 K). 
 
-Rates were found directly dependent on grain size with decreasing stress and grain size, resolved to n = 1.6 and p = 0.9, and independent of grain size with increasing stress and grain size, resolved to n = 3.7. We show that the grain-size-sensitivity was induced via dislocation-accommodated grain boundary sliding (disGBS), predicted as predominately rate-limiting across terrestrial and solar cryospheres. 
+Measurements of creep rate varied over two orders of magnitude, analyzed via the power-law relationship between strain rate, stress, and grain diameter. Rates were found directly dependent on grain size with decreasing stress and grain size, resolved to a stress exponent of 1.6 and a grain size exponent of 0.9, and independent of grain size with increasing stress and grain size, resolved to a grain size exponent of 3.7. We show that the grain-size-sensitivity was induced via dislocation-accommodated grain boundary sliding (disGBS), predicted as predominately rate-limiting across terrestrial and solar cryospheres. 
 
 
 ### Plain Language Summary
