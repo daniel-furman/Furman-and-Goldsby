@@ -52,3 +52,23 @@ Measurements of creep rate varied over two orders of magnitude, analyzed via the
 Vast deposits of partially dense ice, or firn, form layers in the near-surface of glaciers and ice sheets, both on earth and in solar settings. To determine the flow properties for these regions, we produced and then deformed samples of ice powder in the laboratory. 
 
 At larger stresses and coarse grain sizes, the rate of densification was found independent of grain size, matching the mechanism classically considered for the near-surface. At small stresses and fine grain sizes, we discovered a mechanism directly dependent on the grain size, meaning that layers composed of fine grains will flow more rapidly than previously considered. This grain-size-sensitivity carries implications for glaciological modeling and numerous other topics in the cryosphere sciences. 
+
+### Requirements
+
+---
+
+Python dependencies are listed in a `requirements-py.txt` file, including the library version numbers. You can replicate the environment your codebase needs by using virtualenv:
+
+```
+# This creates the virtual environment
+cd $PROJECT-PATH
+virtualenv furman-and-goldsby
+```
+Then install the dependencies by referring to the requirements-py.txt:
+```
+# This installs the modules
+pip install -r requirements-py.txt
+
+# This activates the virtual environment
+source furman-and-goldsby/bin/activate
+```
