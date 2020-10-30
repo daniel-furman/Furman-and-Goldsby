@@ -8,7 +8,6 @@ Created on Sat Aug 22 16:50:41 2020
 
 import pandas as pd
 import numpy as np
-
 import bootstrapped.bootstrap as bs
 import bootstrapped.stats_functions as bs_stats
 
@@ -58,5 +57,3 @@ print('\nthe density bootstrapped uncertainty for the green series:')
 print('\t' + str(bs1))
 plus_minus = np.mean([0.83112-0.82551, 0.83673-.83112])
 print('\t%.11g +- %.11g'%(.83112 ,plus_minus))
-
-
