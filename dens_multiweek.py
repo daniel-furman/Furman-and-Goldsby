@@ -203,10 +203,3 @@ print('The largest flow law disGBS rate:',
       "{:.3e}".format(np.max(results[:,4])))
 print('The smallest flow law disGS  rate:', 
       "{:.3e}".format(np.min(results[:,4])))
-
-
-
-
-
-
-
