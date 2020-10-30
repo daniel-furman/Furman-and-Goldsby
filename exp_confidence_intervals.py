@@ -124,7 +124,3 @@ plt.fill_between(stress, np.exp(reg2.intercept_)*stress**(3.74-reg2_conf),
                  alpha = 0.3,color = 'red')
 
 plt.legend(loc='lower right', shadow = True)
-#plt.savefig('images/expinterv.png', dpi = 400)
-
-
-
