@@ -57,7 +57,7 @@ At larger stresses and coarse grain sizes, the rate of densification was found i
 
 ---
 
-Python dependencies are listed in a `requirements-py.txt` file, including the library version numbers. You can replicate the environment your codebase needs by using virtualenv:
+Python dependencies are listed in a `requirements.txt` file, including the library version numbers. You can replicate the environment your codebase needs by using virtualenv:
 
 ```
 # This creates the virtual environment
