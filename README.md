@@ -67,7 +67,7 @@ virtualenv furman-and-goldsby
 Then install the dependencies by referring to the requirements-py.txt:
 ```
 # This installs the modules
-pip install -r requirements-py.txt
+pip install -r requirements.txt
 
 # This activates the virtual environment
 source furman-and-goldsby/bin/activate
