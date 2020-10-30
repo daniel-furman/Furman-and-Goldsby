@@ -320,6 +320,5 @@ plt.xlim([.8,.9])
 plt.ylim([1e-14,1e-8])
 
 plt.savefig('images/DomeC.png', dpi = 400)
-
 plt.figure()
 print()
