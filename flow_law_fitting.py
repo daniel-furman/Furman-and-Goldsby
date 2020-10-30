@@ -27,7 +27,6 @@ import bootstrapped.stats_functions as bs_stats
 
 paper_table = pd.read_csv('data/paper_table_full.csv', delimiter=',',
                           header = 'infer') 
-
 plt.ylabel('$log$  $\.\epsilon$  (dl/ldt)')
 plt.xlabel('$log$ $\sigma$ (Mpa)')
 plt.title('Experimental Data, 233 K', fontweight = 'bold')
@@ -356,8 +355,3 @@ plt.grid(axis = 'y')
 plt.xlim([1e-3,10])
 plt.ylim([1e-13,1e-5])
 plt.legend()
-#plt.savefig('images/genflowlaw.png', dpi = 400)
-
-
-
-
