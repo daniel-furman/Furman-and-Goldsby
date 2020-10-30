@@ -257,5 +257,4 @@ ax.loglog(stress31[stress31<stress32],r[stress31<stress32],'--',color='grey')
 ax.loglog(stress22[stress21>stress22],r[stress21>stress22],'--',color='grey')
 ax.loglog(stress21[stress21<stress22],r[stress21<stress22],'--',color='grey')
 
-
 # plt.savefig('images/sintering_mars.png', dpi = 400)
