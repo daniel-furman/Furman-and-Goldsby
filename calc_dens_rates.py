@@ -4,6 +4,7 @@
 Created on Tues Aug 18 13:27:33 2020
 @author: danielfurman
 """
+
 # Sixteen densification rate calculations. The entire creep curve was
 # composed of a transient response followed by the steady-state regime,
 # with rates calculated by taking time slices during steady-state and
