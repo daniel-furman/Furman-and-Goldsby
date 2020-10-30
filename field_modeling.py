@@ -13,6 +13,7 @@ Created on Sat Aug 22 20:16:44 2020
 # which is clearly a simplifying approximation.
 
 # required libraries
+
 import pandas as pd
 import numpy as np
 
@@ -124,6 +125,3 @@ strain_rates = pd.DataFrame(strain_rates, index = [
     'Vostok', 'Byrd', 'Mizuho', 'Dome C',  'GISP 2'])
 strain_rates.columns = ['rate 1 (pr >.833)', 'rate 2 (.833 < pr <.866)', 
                         'rate 3 (.866 < pr)', 'mean']
-
-
-
