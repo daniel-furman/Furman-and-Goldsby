@@ -1,4 +1,4 @@
-## The Rheological Behavior of Firn: Experimental Observations of Grain Boundary Sliding Creep 
+## The Rheological Behavior of Firn: Experimental Observations of Dislocation Creep via Grain Boundary Sliding 
 
 *How does grain size, strain state, and microstructure influence the rheological behavior of ice compaction among glaciers and ice sheets?*
 
