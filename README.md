@@ -18,7 +18,7 @@ The programming workflow is available in [`Firn_notebook.ipynb`](https://nbviewe
 
 ---
 
-Figure 1: Figures from (a) [Breant et al. (2017)](https://doi.org/10.5194/cp-13-833-2017) (their Figure 3) and (b) [Faria et al. (2014)](https://doi.org/10.1016/j.jsg.2013.11.003) (their Figure 7). <br><br>
+Figure 1: From (a) [Breant et al. (2017)](https://doi.org/10.5194/cp-13-833-2017) (their Figure 3) and (b) [Faria et al. (2014)](https://doi.org/10.1016/j.jsg.2013.11.003) (their Figure 7). <br><br>
 Figure 2: `flow_law_fiting.py` <br><br>
 Figure 3: `dens_multiweek.py` <br><br>
 Figure 4: `mechanism_maps.py` <br><br>
