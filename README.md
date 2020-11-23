@@ -6,6 +6,20 @@
 
 All code and data required to reproduce analyses presented in [Furman and Goldsby, 2020](https://drive.google.com/file/d/1YA_i9xouhUWkFa5l6MS17KrIIT3p0ogB/view?usp=sharing) and the [Supporting Information](https://drive.google.com/file/d/1SDf_7wlJxUR1KnFe6b0cDSVhVjYN7N4d/view?usp=sharing).
 
+### Introduction to Study
+---
+
+**Key Points**
+*	Laboratory compaction tests were performed on ice powder samples synthesized across a range of grain, constrained to the intermediate stage of densification. 
+*	Two power law creep mechanisms emerged from mechanical testing: dislocation creep and dislocation-accommodated grain boundary sliding (disGBS).
+*	The flow law predicts disGBS as predominately rate-limiting for solar and terrestrial cryospheres, a result compatible with natural microstructures. 
+
+**Key Words** 
+*	Firn, ice sheets, glaciers, densification, microstructure, grain-size-sensitivity, dislocation-accommodated grain boundary sliding, dislocation creep, field boundary hypothesis
+
+**Plain Language Summary** 
+
+Vast deposits of partially dense ice, or firn, form layers in the near-surface of glaciers and ice sheets, both on earth and in solar settings. To determine the flow properties for these regions, we produced and then deformed samples of ice powder in the laboratory. At larger stresses and coarse grain sizes, the rate of densification was found independent of grain size, matching the mechanism classically considered for the near-surface. At small stresses and fine grain sizes, we discovered a mechanism directly dependent on the grain size, meaning that layers composed of fine grains will flow more rapidly than previously considered. This grain-size-sensitivity carries implications for glaciological modeling and numerous other topics in the cryosphere sciences. 
 
 ### Workflow
 
@@ -35,23 +49,6 @@ Table S1: `calc_dens_rates.py` <br><br>
 
 Output from compaction tests (compaction*.csv) and pressure-density profiles (site-name*.csv) are contained in the data/ subfolder. 
 
-
-### Abstract 
-
----
-
-Firn densifies through a number of processes at the near-surface of glaciers and ice sheets, with two plastic creep mechanisms previously identified: diffusion and dislocation creep. Here, we performed a series of compaction experiments at nominally constant stress (0.3 – 1.4 MPa) with samples synthesized over a range of grain size (5 – 550 um) at constant temperature (233 K). 
-
-Measurements of creep rate varied over two orders of magnitude, analyzed via the power-law relationship between strain rate, stress, and grain diameter. Rates were found directly dependent on grain size with decreasing stress and grain size, resolved to a stress exponent of 1.6 and a grain size exponent of 0.9, and independent of grain size with increasing stress and grain size, resolved to a grain size exponent of 3.7. We show that the grain-size-sensitivity was induced via dislocation-accommodated grain boundary sliding (disGBS), predicted as predominately rate-limiting across terrestrial and solar cryospheres. 
-
-
-### Plain Language Summary
-
----
-
-Vast deposits of partially dense ice, or firn, form layers in the near-surface of glaciers and ice sheets, both on earth and in solar settings. To determine the flow properties for these regions, we produced and then deformed samples of ice powder in the laboratory. 
-
-At larger stresses and coarse grain sizes, the rate of densification was found independent of grain size, matching the mechanism classically considered for the near-surface. At small stresses and fine grain sizes, we discovered a mechanism directly dependent on the grain size, meaning that layers composed of fine grains will flow more rapidly than previously considered. This grain-size-sensitivity carries implications for glaciological modeling and numerous other topics in the cryosphere sciences. 
 
 ### Requirements
 
