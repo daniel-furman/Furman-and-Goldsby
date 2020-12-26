@@ -4,12 +4,12 @@
 
 ---
 
-All code and data required to reproduce analyses presented in Furman and Goldsby, 2020 and Supporting Information (See <a target="_blank" rel="noopener noreferrer" href="https://drive.google.com/file/d/1SDf_7wlJxUR1KnFe6b0cDSVhVjYN7N4d/view?usp=sharing">Written Outputs</a> through Google Drive)
+All code and data required to reproduce analyses presented in Furman and Goldsby, 2020 and Supporting Information (See <a target="_blank" rel="noopener noreferrer" href="https://drive.google.com/file/d/1SDf_7wlJxUR1KnFe6b0cDSVhVjYN7N4d/view?usp=sharing">Written Outputs</a> through Google Drive or <a target="_blank" rel="noopener noreferrer" href="https://www.curf.upenn.edu/project/furman-daniel-experimental-ice-compaction">Project Description</a> through CURF).
+)
 
 ### Introduction to Study
 ---
 
-<a target="_blank" rel="noopener noreferrer" href="https://www.curf.upenn.edu/project/furman-daniel-experimental-ice-compaction">Project Description (through CURF)</a>
 
 **Key Points**
 *	Laboratory compaction tests were performed on ice powder samples of varying grain size, at eighty to ninety percent relative density. 
