@@ -10,7 +10,7 @@ All code and data required to reproduce analyses presented in [Furman and Goldsb
 ---
 
 **Key Points**
-*	Laboratory compaction tests were performed on ice powder samples synthesized across a range of grain, constrained to the intermediate stage of densification. 
+*	Laboratory compaction tests were performed on ice powder samples synthesized across a range of grain size, constrained to the intermediate stage of densification. 
 *	Two power law creep mechanisms emerged from mechanical testing: dislocation creep and dislocation-accommodated grain boundary sliding (disGBS).
 *	The flow law predicts disGBS as predominately rate-limiting for solar and terrestrial cryospheres, a result compatible with natural microstructures. 
 
