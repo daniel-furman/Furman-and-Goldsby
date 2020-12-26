@@ -4,13 +4,15 @@
 
 ---
 
-All code and data required to reproduce analyses presented in [Furman and Goldsby, 2020](https://drive.google.com/file/d/1YA_i9xouhUWkFa5l6MS17KrIIT3p0ogB/view?usp=sharing) and the [Supporting Information](https://drive.google.com/file/d/1SDf_7wlJxUR1KnFe6b0cDSVhVjYN7N4d/view?usp=sharing).
+All code and data required to reproduce analyses presented in Furman and Goldsby, 2020 and Supporting Information (See <a target="_blank" rel="noopener noreferrer" href="https://drive.google.com/file/d/1SDf_7wlJxUR1KnFe6b0cDSVhVjYN7N4d/view?usp=sharing">Outputs (through Google Drive)</a>
 
 ### Introduction to Study
 ---
 
+<a target="_blank" rel="noopener noreferrer" href="https://www.curf.upenn.edu/project/furman-daniel-experimental-ice-compaction">Project Description (through CURF)</a>
+
 **Key Points**
-*	Laboratory compaction tests were performed on ice powder samples synthesized across a range of grain size, constrained to the intermediate stage of densification. 
+*	Laboratory compaction tests were performed on ice powder samples of varying grain size, at eighty to ninety percent relative density. 
 *	Two power law creep mechanisms emerged from mechanical testing: dislocation creep and dislocation-accommodated grain boundary sliding (disGBS).
 *	The flow law predicts disGBS as predominately rate-limiting for solar and terrestrial cryospheres, a result compatible with natural microstructures. 
 
