@@ -12,7 +12,11 @@ Experimental results | Flow model for Antarctica (densification rate)
 
 Ice physics and flow processes in the near-surface of ice sheets. All code and data required to reproduce analyses presented in Furman and Goldsby, 2020 and Supporting Information (See <a target="_blank" rel="noopener noreferrer" href="https://drive.google.com/drive/folders/1eDXEeZ1x04-mp7oUI9cQi2PNBXxXor5x?usp=sharing">Written Outputs</a> through Google Drive or a <a target="_blank" rel="noopener noreferrer" href="https://www.curf.upenn.edu/project/furman-daniel-experimental-ice-compaction">Project Description</a> via CURF).
 
-### Introduction to Study
+---
+
+### Introduction
+
+---
 
 **Key Points**
 *	Laboratory compaction tests were performed on ice powder samples of varying grain size, at eighty to ninety percent relative density. 
@@ -26,14 +30,20 @@ Ice physics and flow processes in the near-surface of ice sheets. All code and d
 
 Vast deposits of partially dense ice, or firn, form layers in the near-surface of glaciers and ice sheets, both on earth and in solar settings. To determine the flow properties for these regions, we produced and then deformed samples of ice powder in the laboratory. At larger stresses and coarse grain sizes, the rate of densification was found independent of grain size, matching the mechanism classically considered for the near-surface. At small stresses and fine grain sizes, we discovered a mechanism directly dependent on the grain size, meaning that layers composed of fine grains will flow more rapidly than previously considered. This grain-size-sensitivity carries implications for glaciological modeling and numerous other topics in the cryosphere sciences. 
 
+---
+
 ### Workflow
 
+---
 
 The programming workflow is available in [`Firn_notebook.ipynb`](https://nbviewer.jupyter.org/github/daniel-furman/Furman-and-Goldsby/blob/master/Firn_notebook.ipynb), where each .py script is ran in an easy to follow sequence.
 
 
+---
+
 ### Paper Figures
 
+---
 
 Figure 1: From (a) [Breant et al. (2017)](https://doi.org/10.5194/cp-13-833-2017) (their Figure 3) and (b) [Faria et al. (2014)](https://doi.org/10.1016/j.jsg.2013.11.003) (their Figure 7). <br><br>
 Figure 2: `flow_law_fiting.py` <br><br>
@@ -46,7 +56,10 @@ Figure S4: `field_modeling_2.py` <br><br>
 Table 1: `flow_law_fitting.py` <br><br>
 Table S1: `calc_dens_rates.py` <br><br>
 
+---
+
 ### Data
 
+---
 
 Output from compaction tests (compaction*.csv) and pressure-density profiles (site-name*.csv) are contained in the data/ subfolder. 
