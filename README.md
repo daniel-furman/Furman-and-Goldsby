@@ -2,21 +2,20 @@
 
 *How does grain size, strain state, and microstructure influence the rheological behavior of ice compaction among glaciers and ice sheets?*
 
----
  
 Experimental results | Flow model for Antarctica (densification rate)
 :-------------------------------------------:|:------------------------------:
 ![](data/exp-interv.png) | ![](data/map.png)
 
----
 
-Ice physics and flow processes in the near-surface of ice sheets. All code and data required to reproduce analyses presented in Furman and Goldsby, 2020 and Supporting Information (See <a target="_blank" rel="noopener noreferrer" href="https://drive.google.com/drive/folders/1eDXEeZ1x04-mp7oUI9cQi2PNBXxXor5x?usp=sharing">Written Outputs</a> through Google Drive or a <a target="_blank" rel="noopener noreferrer" href="https://www.curf.upenn.edu/project/furman-daniel-experimental-ice-compaction">Project Description</a> via CURF).
 
----
 
 ### Introduction
 
 ---
+
+Ice physics and flow processes in the near-surface of ice sheets. All code and data required to reproduce analyses presented in Furman and Goldsby, 2020 and Supporting Information (See <a target="_blank" rel="noopener noreferrer" href="https://drive.google.com/drive/folders/1eDXEeZ1x04-mp7oUI9cQi2PNBXxXor5x?usp=sharing">Written Outputs</a> through Google Drive or a <a target="_blank" rel="noopener noreferrer" href="https://www.curf.upenn.edu/project/furman-daniel-experimental-ice-compaction">Project Description</a> via CURF).
+
 
 **Key Points**
 *	Laboratory compaction tests were performed on ice powder samples of varying grain size, at eighty to ninety percent relative density. 
@@ -30,7 +29,7 @@ Ice physics and flow processes in the near-surface of ice sheets. All code and d
 
 Vast deposits of partially dense ice, or firn, form layers in the near-surface of glaciers and ice sheets, both on earth and in solar settings. To determine the flow properties for these regions, we produced and then deformed samples of ice powder in the laboratory. At larger stresses and coarse grain sizes, the rate of densification was found independent of grain size, matching the mechanism classically considered for the near-surface. At small stresses and fine grain sizes, we discovered a mechanism directly dependent on the grain size, meaning that layers composed of fine grains will flow more rapidly than previously considered. This grain-size-sensitivity carries implications for glaciological modeling and numerous other topics in the cryosphere sciences. 
 
----
+
 
 ### Workflow
 
@@ -39,7 +38,7 @@ Vast deposits of partially dense ice, or firn, form layers in the near-surface o
 The programming workflow is available in [`Firn_notebook.ipynb`](https://nbviewer.jupyter.org/github/daniel-furman/Furman-and-Goldsby/blob/master/Firn_notebook.ipynb), where each .py script is ran in an easy to follow sequence.
 
 
----
+
 
 ### Paper Figures
 
@@ -56,7 +55,7 @@ Figure S4: `field_modeling_2.py` <br><br>
 Table 1: `flow_law_fitting.py` <br><br>
 Table S1: `calc_dens_rates.py` <br><br>
 
----
+
 
 ### Data
 
