@@ -8,6 +8,8 @@ Experimental results | Flow model for Antarctica (densification rate)
 :-------------------------------------------:|:------------------------------:
 ![](data/exp-interv.png) | ![](data/map.png)
 
+---
+
 Ice physics and flow processes in the near-surface of ice sheets. All code and data required to reproduce analyses presented in Furman and Goldsby, 2020 and Supporting Information (See <a target="_blank" rel="noopener noreferrer" href="https://drive.google.com/drive/folders/1eDXEeZ1x04-mp7oUI9cQi2PNBXxXor5x?usp=sharing">Written Outputs</a> through Google Drive or a <a target="_blank" rel="noopener noreferrer" href="https://www.curf.upenn.edu/project/furman-daniel-experimental-ice-compaction">Project Description</a> via CURF).
 
 ### Introduction to Study
@@ -53,24 +55,3 @@ Table S1: `calc_dens_rates.py` <br><br>
 ---
 
 Output from compaction tests (compaction*.csv) and pressure-density profiles (site-name*.csv) are contained in the data/ subfolder. 
-
-
-### Requirements
-
----
-
-Python dependencies are listed in a `requirements.txt` file, including the library version numbers. You can replicate the environment your codebase needs by using virtualenv:
-
-```
-# This creates the virtual environment
-cd $PROJECT-PATH
-virtualenv furman-and-goldsby
-```
-Then install the dependencies by referring to the requirements-py.txt:
-```
-# This installs the modules
-pip install -r requirements.txt
-
-# This activates the virtual environment
-source furman-and-goldsby/bin/activate
-```
