@@ -2,6 +2,8 @@
 
 *How does grain size, strain state, and microstructure influence the rheological behavior of ice compaction among glaciers and ice sheets?*
 
+[`Firn_notebook.ipynb`](https://nbviewer.jupyter.org/github/daniel-furman/Furman-and-Goldsby/blob/master/Firn_notebook.ipynb)
+
  
 Experimental results | Flow model for Antarctica (densification rate)
 :-------------------------------------------:|:------------------------------:
