@@ -16,7 +16,7 @@ Experimental results | Flow model for Antarctica (densification rate)
 
 ---
 
-Ice physics and flow processes in the near-surface of ice sheets. All code and data required to reproduce analyses presented in Furman and Goldsby, 2020 and Supporting Information (See <a target="_blank" rel="noopener noreferrer" href="https://drive.google.com/drive/folders/1eDXEeZ1x04-mp7oUI9cQi2PNBXxXor5x?usp=sharing">Written Outputs</a> through Google Drive or a <a target="_blank" rel="noopener noreferrer" href="https://www.curf.upenn.edu/project/furman-daniel-experimental-ice-compaction">Project Description</a> via CURF).
+Ice physics and flow processes in the near-surface of ice sheets. All code and data required to reproduce analyses presented in Furman and Goldsby, 2021.
 
 
 **Key Points**
@@ -51,9 +51,6 @@ Figure 2: `flow_law_fiting.py` <br><br>
 Figure 3: `dens_multiweek.py` <br><br>
 Figure 4: `mechanism_maps.py` <br><br>
 Figure S1: Photographs taken in the laboratory and diagram made with PowerPoint <br><br>
-Figure S2: `exp_confidence_intervals.py` <br><br>
-Figure S3: Diagrams made with PowerPoint <br><br>
-Figure S4: `field_modeling_2.py` <br><br>
 Table 1: `flow_law_fitting.py` <br><br>
 Table S1: `calc_dens_rates.py` <br><br>
 
