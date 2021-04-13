@@ -7,7 +7,7 @@
  ---
  
  
-Experimental results | Flow model for Antarctica (densification rate)
+Experimental results | Mechanism map for firn  
 :-------------------------------------------:|:------------------------------:
 ![](data/exp-interv.png) | ![](data/map.png)
 
