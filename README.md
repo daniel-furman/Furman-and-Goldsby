@@ -18,13 +18,13 @@ Ice physics and flow processes in the near-surface of ice sheets. All code and d
 
 
 **Key Points**
-•	Constant stress laboratory experiments were performed on H20 ice powder samples with roughly uniform grain size varying from 5 to 550 micrometers (µm) in radius. 
-•	Two rheologically-distinct creep regimes emerged, characterized by their grain size sensitivity and stress dependence: dislocation creep (n ~ 3.7, p ~ 0) and disGBS (n ~ 1.6, p ~ 0.9). 
-•	Flow laws resolved the disGBS mechanism as predominantly rate-limiting for natural conditions, such as in glaciers and ice sheets.  
+* Constant stress laboratory experiments were performed on H20 ice powder samples with roughly uniform grain size varying from 5 to 550 micrometers (µm) in radius. 
+*	Two rheologically-distinct creep regimes emerged, characterized by their grain size sensitivity and stress dependence: dislocation creep (n ~ 3.7, p ~ 0) and disGBS (n ~ 1.6, p ~ 0.9). 
+*	Flow laws resolved the disGBS mechanism as predominantly rate-limiting for natural conditions, such as in glaciers and ice sheets.  
 
 
 **Key Words** 
-•	Ice sheets, glaciers, firn densification, microstructure, grain size sensitivity, dislocation creep, disGBS, the field boundary hypothesis, constant-stress creep tests
+*	Ice sheets, glaciers, firn densification, microstructure, grain size sensitivity, dislocation creep, disGBS, the field boundary hypothesis, constant-stress creep tests
 
 **Plain Language Summary** 
 
