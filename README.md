@@ -4,13 +4,18 @@
 
 **[`Firn_notebook.ipynb`](https://nbviewer.jupyter.org/github/daniel-furman/Furman-and-Goldsby/blob/master/Firn_notebook.ipynb)**
 
+ ---
+ 
  
 Experimental results | Flow model for Antarctica (densification rate)
 :-------------------------------------------:|:------------------------------:
 ![](data/exp-interv.png) | ![](data/map.png)
 
 
-**Key Points**
+### Key Points
+
+---
+
 * Constant stress laboratory experiments were performed on H20 ice powder samples with roughly uniform grain size varying from 5 to 550 micrometers (µm) in radius. 
 *	Two rheologically-distinct creep regimes emerged, characterized by their grain size sensitivity and stress dependence: dislocation creep (n ~ 3.7, p ~ 0) and disGBS (n ~ 1.6, p ~ 0.9). 
 *	Flow laws resolved the disGBS mechanism as predominantly rate-limiting for natural conditions, such as in glaciers and ice sheets.  
