@@ -1,4 +1,4 @@
-## The Rheological Behavior of Firn: Experimental Observations of Grain Size Sensitivity and Applications to Ice Sheet Deformation
+## The Rheological Behavior of Firn: Experimental Observations of Grain Size Sensitivity and its Application to Ice Sheet Deformation
 
 *How does grain size, strain state, and microstructure influence the rheological behavior of ice compaction among glaciers and ice sheets?*
 
